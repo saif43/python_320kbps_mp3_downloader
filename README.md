@@ -1,1 +1,1 @@
-# python_320kbps_mp3_downloader
+# Python mp3 Downloader [320 kbps]
