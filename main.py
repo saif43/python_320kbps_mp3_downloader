@@ -11,4 +11,11 @@ ydl_opts = {
     }],
 }
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download([input('Enter Youtube link: ')])
+    while True:
+        x = input('Enter Youtube link: ')
+
+        if x == -1:
+            break
+
+        ydl.download([x])
+        
