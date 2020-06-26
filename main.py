@@ -12,10 +12,10 @@ ydl_opts = {
 }
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     while True:
+        print('[Type exit to close this application]')
         x = input('Enter Youtube link: ')
 
-        if x == -1:
+        if x == 'exit':
             break
 
         ydl.download([x])
-        
