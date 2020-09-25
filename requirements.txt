@@ -1,1 +1,1 @@
-youtube_dl
+youtube_dl>=2020.9.20,<2021.0.0
