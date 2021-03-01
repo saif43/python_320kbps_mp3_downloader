@@ -9,7 +9,7 @@
 2. Run
 
 ```shell
-    pip install requirement.txt
+    pip install -r requirement.txt
 ```
 
 Sometimes you might get error, if youtube_dl library is backdated.
