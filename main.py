@@ -7,6 +7,9 @@ from sys import platform
 if platform == "linux" or platform == "linux2":
     os.system("sudo apt install ffmpeg")
     os.system("clear")
+elif platform == "win32":
+    os.system("echo y|choco install ffmpeg")
+    # os.system("cls")l
 
 
 ydl_opts = {
